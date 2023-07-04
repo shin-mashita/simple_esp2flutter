@@ -10,7 +10,7 @@ Include Adafruit MPU6050 sensor library and Adafruit Unified Sensor Driver. Simp
 1. [PlatformIO]
 2. [Arduino]
 
-For [PlatformIO], include also `esp/src/platformio.ini`. 
+For [PlatformIO], include also `esp/platformio.ini`. 
 
 
 ## Flutter App
