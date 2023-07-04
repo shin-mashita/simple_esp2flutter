@@ -16,7 +16,7 @@ $$G_Z = 12.07 m/s^2$$
 
 where $G_X$, $G_Y$ and $G_Z$ the resting acceleration for the x-, y-, and z-axis, respectively.
 
-The arrays follow a dequeue data structure, which means that if the array is full, new array reading will remove the oldest one (First In, First Out). For each array, the average of the first 49 elements is obtained and compared with the latest reading. If the difference is more than the value of the threshold multiplier to the resting accelerations $G_T$, a fall event is detected. For x-axis, the fall event is given by
+The arrays follow a dequeue data structure, which means that if the array is full, new array reading will remove the oldest one (First In, First Out). For each array $g$, the average of the first 49 elements is obtained and compared with the latest reading. If the difference is more than the value of the threshold multiplier to the resting accelerations $G_T$, a fall event is detected. For x-axis, the fall event is given by
 
 $$ \bigg|g_{50}-\sum^{49}_{n=1}\frac{g_n}{49}\bigg| > G_T G_X $$
 
